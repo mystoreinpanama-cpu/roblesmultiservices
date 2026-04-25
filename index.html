@@ -281,7 +281,33 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
 .img-banner-dot{width:14px;height:14px;border-radius:50%;background:#ccc;border:none;cursor:pointer;transition:.3s}
 .img-banner-dot.active{background:var(--blue);transform:scale(1.3)}
 
+
+.detail-flyer{width:100%;max-width:480px;height:auto;border-radius:12px;box-shadow:0 8px 24px rgba(0,56,130,.18);margin-bottom:20px;display:block}
+@media(max-width:768px){.detail-flyer{max-width:100%}}
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;background:var(--blue);color:var(--white);padding:16px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;z-index:9999;box-shadow:0 -4px 20px rgba(0,0,0,.15)}
+.cookie-banner.hidden{display:none}
+.cookie-banner p{font-size:14px;margin:0;flex:1;min-width:280px}
+.cookie-banner a{color:var(--gold);text-decoration:underline}
+.cookie-banner .cookie-actions{display:flex;gap:10px}
+.cookie-banner button{padding:10px 18px;border-radius:24px;border:none;font-weight:600;font-size:14px;cursor:pointer;transition:.2s}
+.cookie-banner .cookie-accept{background:var(--gold);color:var(--blue)}
+.cookie-banner .cookie-accept:hover{background:#fff}
+.cookie-banner .cookie-reject{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.4)}
+.cookie-banner .cookie-reject:hover{background:rgba(255,255,255,.1)}
 </style>
+
+<!-- Meta Pixel: descomenta y reemplaza YOUR_PIXEL_ID cuando lo crees en business.facebook.com/events_manager -->
+<!--
+<script>
+window.addEventListener('cookieConsentAccepted', function(){
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'YOUR_PIXEL_ID');
+fbq('track', 'PageView');
+});
+</script>
+-->
 </head>
 <body>
 
@@ -322,6 +348,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-MULT-PLAN.webp" alt="ROBLES MULTISERVICES — planes-pago-multas" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>¿Recibiste multas de tránsito y no puedes pagarlas todas de una vez? Nosotros nos encargamos de gestionar un plan de pagos ante el DMV o MVC para que puedas pagar en cuotas sin que se suspendan tu licencia o registro. Analizamos tu situación, completamos los formularios necesarios y te guiamos durante todo el proceso — todo 100% remoto por WhatsApp.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -348,6 +375,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-LIC-DEF.webp" alt="ROBLES MULTISERVICES — curso-manejo-defensivo" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>El curso de manejo defensivo es una herramienta efectiva para reducir hasta 4 puntos de tu licencia de conducir y puede ayudarte a obtener un descuento de hasta 10% en tu seguro de auto por 3 años. Te inscribimos en un curso aprobado por el estado de Nueva York, en español, que puedes tomar en línea desde la comodidad de tu casa.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -400,6 +428,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-TIC-DIS.webp" alt="ROBLES MULTISERVICES — disputar-tickets" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si recibiste un ticket de tránsito injusto o quieres disputarlo, te ayudamos a presentar tu caso a través del sistema SIROPA (System for Internet Request of Pre-Authorization). Preparamos toda la documentación necesaria, redactamos tu declaración y te guiamos paso a paso para que tengas la mejor oportunidad de reducir o eliminar la multa.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -426,6 +455,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-PAGO-PLAN.webp" alt="ROBLES MULTISERVICES — plan-pagos-dmv" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Cuando tienes un balance pendiente acumulado ante el DMV o MVC que no puedes pagar de una sola vez, un plan de pagos puede ser la solución. Nosotros gestionamos la solicitud completa del plan de pagos, negociando las mejores condiciones posibles para tu situación financiera actual.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -452,6 +482,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-CITA-OFI.webp" alt="ROBLES MULTISERVICES — citas-dmv" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Navegar los sistemas de citas del DMV o MVC puede ser frustrante, especialmente si las páginas están en inglés. Nosotros programamos tu cita en la oficina y fecha que prefieras, ya sea para renovar tu licencia, obtener un ID, registrar un vehículo o cualquier otro trámite. Te entregamos la confirmación lista para imprimir.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -504,6 +535,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-AUD-PROG.webp" alt="ROBLES MULTISERVICES — audiencias-trafico" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si necesitas programar una audiencia de tráfico o reprogramar una existente porque no puedes asistir en la fecha asignada, nosotros lo hacemos por ti. Manejamos todo el proceso con la corte de tráfico correspondiente para conseguir una nueva fecha que se ajuste a tu disponibilidad.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -530,6 +562,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-TIC-DECL.webp" alt="ROBLES MULTISERVICES — asistencia-culpable-inocente" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Cuando recibes un ticket de tránsito, tienes opciones: declararte culpable, inocente, o culpable con explicación. Te explicamos claramente las consecuencias de cada opción, los posibles resultados y te ayudamos a completar los formularios necesarios para presentar tu declaración de la manera correcta.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -556,6 +589,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-TIC-PAG.webp" alt="ROBLES MULTISERVICES — pago-tickets" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>No dejes que tus tickets se acumulen — las multas impagas pueden resultar en suspensión de licencia, cargos adicionales e incluso órdenes de arresto. Nosotros gestionamos el pago de tus tickets de tránsito de forma rápida, verificamos que el pago se registre correctamente en el sistema y te damos confirmación del pago realizado.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -582,6 +616,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-VEH-RREG.webp" alt="ROBLES MULTISERVICES — renovacion-registro" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Mantén tu vehículo o moto legalmente registrado sin complicaciones. Nosotros gestionamos la renovación de tu registración de manera completamente remota. Nos encargamos de todo el papeleo, verificamos que no haya problemas pendientes con tu vehículo y te aseguramos que recibas tu nueva registración a tiempo.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -608,6 +643,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-TIC-ORIE.webp" alt="ROBLES MULTISERVICES — orientacion-tickets" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>¿No sabes qué hacer con un ticket de tránsito? Ofrecemos orientación profesional donde analizamos tu situación específica, te explicamos todas las opciones disponibles (disputar, pagar, plan de pagos, declararse culpable o inocente) y te recomendamos el mejor camino a seguir según tu caso particular.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -634,6 +670,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-LIC-ROAD.webp" alt="ROBLES MULTISERVICES — citas-examen-practico" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>El examen práctico de manejo (Road Test) es el último paso para obtener tu licencia de conducir. Nosotros programamos tu cita en la ubicación y fecha que prefieras, te indicamos qué documentos necesitas y qué esperar el día del examen para que vayas preparado y con confianza.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -660,6 +697,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-LIC-EXAM.webp" alt="ROBLES MULTISERVICES — asistencia-examen" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>El día de tu examen de manejo puede ser estresante. Ofrecemos asistencia para que vayas preparado: te explicamos la ruta del examen, los puntos que evalúan, errores comunes que debes evitar, y si lo necesitas, coordinamos un vehículo para tu examen. Todo para que pases a la primera.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -686,6 +724,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-LIC-PRAC.webp" alt="ROBLES MULTISERVICES — practicas-manejo" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si necesitas practicar antes de tu examen de manejo, coordinamos sesiones de práctica con instructores profesionales en tu zona. Las sesiones son personalizadas según tu nivel de experiencia y se enfocan en las áreas que necesitas mejorar para pasar tu Road Test con éxito.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -712,6 +751,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-VEH-REM.webp" alt="ROBLES MULTISERVICES — carros-remolcados" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si tu carro o moto fue remolcado, el tiempo es crítico — cada día en el depósito acumula cargos. Nosotros te ayudamos a localizar tu vehículo, gestionar todo el papeleo necesario y coordinar la recuperación lo antes posible para minimizar los costos del depósito.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -738,6 +778,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-LIC-SUSP.webp" alt="ROBLES MULTISERVICES — remover-suspensiones" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Una suspensión de licencia o registro puede complicar tu vida diaria. Te ayudamos a entender por qué fue suspendida, qué pasos seguir para remover la suspensión y gestionamos todo el proceso ante el DMV o MVC. Ya sea por multas impagas, falta de seguro u otros motivos.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -764,6 +805,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-TIC-CAM.webp" alt="ROBLES MULTISERVICES — pago-tickets-camaras" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Las multas por cámaras de velocidad, semáforo rojo y estacionamiento son cada vez más comunes. Si no se pagan a tiempo, pueden generar cargos adicionales y problemas con la registración de tu vehículo. Nosotros gestionamos el pago de todas estas multas de manera rápida y eficiente.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -790,6 +832,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DMV-VEH-BOTA.webp" alt="ROBLES MULTISERVICES — retirar-botas" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si tu vehículo tiene una bota inmovilizadora, necesitas actuar rápido para evitar que sea remolcado. Nosotros te ayudamos a identificar qué multas o deudas causaron la inmovilización, gestionar los pagos necesarios y coordinar la remoción de la bota lo antes posible.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -842,6 +885,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-ASI-REF.webp" alt="ROBLES MULTISERVICES — reforzamiento-caso" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si tu caso de asilo necesita más fuerza, te ayudamos a identificar y preparar evidencias adicionales que fortalezcan tu solicitud. Esto puede incluir reportes de país, artículos de noticias relevantes, declaraciones adicionales de testigos y cualquier documentación que apoye tu caso ante el juez de inmigración.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -868,6 +912,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-ASI-RELOJ.webp" alt="ROBLES MULTISERVICES — reactivacion-reloj" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>El reloj de asilo determina cuándo puedes solicitar tu permiso de trabajo. Si tu reloj se detuvo por algún motivo, podemos ayudarte a gestionar la solicitud de reactivación ante USCIS. Preparamos toda la documentación necesaria y hacemos seguimiento al proceso.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -894,6 +939,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-EAD-I765.webp" alt="ROBLES MULTISERVICES — permiso-trabajo" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>El permiso de trabajo (Employment Authorization Document - EAD) te permite trabajar legalmente en Estados Unidos. Preparamos tu solicitud completa incluyendo el Formulario I-765, fotografías según especificaciones, y toda la documentación de soporte requerida por USCIS.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -920,6 +966,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-DIR-EOIR.webp" alt="ROBLES MULTISERVICES — cambio-direccion" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si te mudaste, es OBLIGATORIO actualizar tu dirección tanto ante la corte de inmigración (EOIR) como ante DHS/ICE. No hacerlo puede resultar en que pierdas tu audiencia y se emita una orden de deportación en tu ausencia. Nosotros hacemos ambos cambios de dirección por ti, asegurándonos de que todo quede registrado correctamente.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -946,6 +993,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-AUD-VIRT.webp" alt="ROBLES MULTISERVICES — cambio-audiencia-virtual" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si no puedes asistir presencialmente a tu audiencia de inmigración o prefieres un formato virtual, preparamos y presentamos la solicitud de cambio ante la corte. Esto puede ser especialmente útil si te mudaste a otro estado o tienes dificultades de transporte.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -972,6 +1020,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-MOC-APL.webp" alt="ROBLES MULTISERVICES — mocion-aplazamiento" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si necesitas más tiempo para preparar tu caso, conseguir un abogado, o por cualquier otra razón válida, preparamos y presentamos una moción de aplazamiento (continuance) ante la corte de inmigración. Incluimos toda la justificación necesaria para que el juez apruebe tu solicitud.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -998,6 +1047,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-MOC-JUR.webp" alt="ROBLES MULTISERVICES — mocion-jurisdiccion" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si te mudaste a otro estado, tu caso de inmigración puede necesitar ser transferido a la corte más cercana a tu nueva dirección. Preparamos la moción de cambio de jurisdicción (change of venue) con toda la documentación requerida para que tu caso se transfiera correctamente.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1024,6 +1074,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-MOC-REAP.webp" alt="ROBLES MULTISERVICES — mocion-reapertura" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si tu caso fue cerrado o recibiste una orden de deportación en ausencia, una moción de reapertura puede ser tu oportunidad de reabrir el caso. Preparamos la moción con toda la justificación legal necesaria, nueva evidencia y documentación que demuestre las circunstancias excepcionales de tu situación.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1050,6 +1101,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-PAGO-ASI.webp" alt="ROBLES MULTISERVICES — pago-tarifa-asilo" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Los solicitantes de asilo deben pagar una tarifa anual para mantener su caso activo. Te ayudamos a gestionar este pago ante USCIS de forma correcta y oportuna, asegurándonos de que tu caso permanezca en buen estado.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1076,6 +1128,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-PAGO-USCIS.webp" alt="ROBLES MULTISERVICES — pago-tarifas-migratorias" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Los trámites migratorios tienen diferentes tarifas que deben pagarse correctamente para que tu solicitud sea procesada. Nosotros nos encargamos de calcular la tarifa correcta, preparar los documentos de pago y asegurar que todo se procese sin errores ante USCIS o EOIR.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1102,6 +1155,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-PAQ-PREP.webp" alt="ROBLES MULTISERVICES — preparacion-paquetes" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Un paquete migratorio bien organizado es fundamental para el éxito de tu caso. Armamos tu paquete completo con todos los formularios, evidencias, declaraciones y documentos de soporte, organizado profesionalmente con índice, separadores y en el orden correcto que requiere la corte o USCIS.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1128,6 +1182,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-FORM-DIL.webp" alt="ROBLES MULTISERVICES — diligenciamiento-formularios" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Los formularios migratorios son complejos y un error puede causar demoras o rechazos costosos. Nuestro equipo tiene experiencia llenando formularios I-589, I-765, I-130, I-485, EOIR-26, EOIR-33 y muchos más. Completamos cada campo con precisión y revisamos todo antes de entregarte el formulario listo para firmar.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1154,6 +1209,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-EVID-CORTE.webp" alt="ROBLES MULTISERVICES — organizacion-evidencias" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Presentar evidencia ante la corte de inmigración requiere un formato y procedimiento específico. Nosotros organizamos toda tu evidencia profesionalmente, preparamos la carta de presentación (cover letter), el índice de exhibiciones y enviamos todo a la corte y al abogado del gobierno con el certificado de servicio correspondiente.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1180,6 +1236,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-PAQ-REP.webp" alt="ROBLES MULTISERVICES — reparacion-paquetes" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Si tu paquete migratorio fue rechazado, tiene errores o está incompleto, nosotros lo corregimos. Analizamos qué salió mal, identificamos los errores o documentos faltantes, y preparamos una versión corregida y completa lista para re-presentar ante la corte o USCIS.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1206,6 +1263,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/INM-TRAD-CERT.webp" alt="ROBLES MULTISERVICES — traducciones-certificadas" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Las traducciones certificadas son requeridas para presentar documentos en otro idioma ante cortes, USCIS y otras entidades oficiales. Ofrecemos traducciones certificadas del español al inglés y del inglés al español, con certificado de exactitud incluido, aceptadas por todas las instituciones gubernamentales.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1232,6 +1290,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-AFI.webp" alt="ROBLES MULTISERVICES — declaraciones-juradas" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Una declaración jurada (affidavit) es un documento legal donde una persona declara bajo juramento que cierta información es verdadera. Nosotros redactamos declaraciones juradas profesionales para cualquier propósito: inmigración, corte, trámites personales, negocios y más. Cada declaración es personalizada según tus necesidades específicas.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1258,6 +1317,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-CARTA-GEN.webp" alt="ROBLES MULTISERVICES — cartas-general" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Redactamos todo tipo de cartas profesionales: cartas de empleo, cartas de referencia, cartas de apoyo para inmigración, cartas al gobierno, cartas formales empresariales, cartas de queja y más. Cada carta es redactada en tono profesional, con formato correcto y contenido efectivo.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1284,6 +1344,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-CARTA-RES.webp" alt="ROBLES MULTISERVICES — cartas-residencia" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Las cartas de residencia son documentos que certifican que una persona vive en una dirección específica. Son frecuentemente requeridas para trámites de inmigración, inscripción escolar, servicios gubernamentales y otros. Preparamos cartas de residencia profesionales con toda la información requerida.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1310,6 +1371,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-POD.webp" alt="ROBLES MULTISERVICES — poderes" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Un poder (power of attorney) te permite autorizar a otra persona a actuar en tu nombre para trámites específicos. Preparamos poderes generales y especiales para diferentes situaciones: trámites bancarios, inmobiliarios, legales, vehiculares y más. Cada poder incluye toda la información legal requerida.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1336,6 +1398,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-APO.webp" alt="ROBLES MULTISERVICES — apostillas" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>La apostilla es una certificación que valida un documento estadounidense para uso en otro país (miembro del Convenio de La Haya). Gestionamos la apostilla de actas de nacimiento, matrimonio, divorcio, poderes, certificados escolares y cualquier documento que necesites usar en el extranjero.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1362,6 +1425,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-CV.webp" alt="ROBLES MULTISERVICES — curriculum" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Un currículum profesional es tu carta de presentación ante los empleadores. Creamos currículums modernos y efectivos en español e inglés, destacando tus habilidades, experiencia y logros de manera que capten la atención de los reclutadores. Incluimos formato profesional, palabras clave de la industria y diseño atractivo.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1388,6 +1452,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.8);padding:60px 0 20px}
  </div>
  <div class="detail-body">
   <div class="detail-main">
+   <img class="detail-flyer" src="flyers/DOC-EMP.webp" alt="ROBLES MULTISERVICES — aplicar-empleos" loading="lazy" decoding="async">
    <h3>Descripción del Servicio</h3>
    <p>Buscamos ofertas de empleo que se ajusten a tu perfil y experiencia, y te ayudamos a aplicar con materiales profesionales. Incluye búsqueda de ofertas, preparación de currículum y carta de presentación personalizados para cada aplicación, y envío de las solicitudes.</p>
    <h3 style="margin-top:28px">¿Qué incluye?</h3>
@@ -1923,6 +1988,28 @@ window.addEventListener('DOMContentLoaded',handleHash);
   // Set initial state and start
   update();
   resetTimer();
+})();
+</script>
+
+<!-- Cookies banner -->
+<div id="cookieBanner" class="cookie-banner hidden">
+  <p>Usamos cookies para mejorar tu experiencia y entender qué servicios te interesan más. Al continuar navegando aceptas su uso. <a href="#" onclick="document.getElementById('cookieBanner').classList.add('hidden');return false;">Más información</a></p>
+  <div class="cookie-actions">
+    <button class="cookie-reject" onclick="setCookieConsent(false)">Rechazar</button>
+    <button class="cookie-accept" onclick="setCookieConsent(true)">Aceptar</button>
+  </div>
+</div>
+<script>
+(function(){
+  function getCookieConsent(){try{return localStorage.getItem('robles_cookie_consent');}catch(e){return null;}}
+  window.setCookieConsent = function(accepted){
+    try{localStorage.setItem('robles_cookie_consent', accepted ? 'accepted' : 'rejected');}catch(e){}
+    document.getElementById('cookieBanner').classList.add('hidden');
+    if(accepted){window.dispatchEvent(new Event('cookieConsentAccepted'));}
+  };
+  if(!getCookieConsent()){
+    document.getElementById('cookieBanner').classList.remove('hidden');
+  }
 })();
 </script>
 </body>
