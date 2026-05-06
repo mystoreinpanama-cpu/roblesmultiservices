@@ -1,0 +1,380 @@
+[
+  {
+    "id": "planes-pago-multas",
+    "title": "Planes de Pago para Multas (Tickets)",
+    "description": "Cuando las multas de tránsito se acumulan, pagar todo de una sola vez puede ser imposible. En ROBLES MULTISERVICES gestionamos el plan de pagos completo ante el DMV o MVC para que pagues en cuotas y evites la suspensión de tu licencia. Analizamos tu situación, calculamos las opciones disponibles, completamos los formularios y hacemos seguimiento hasta la confirmación oficial. Tiempo estimado: 3 a 5 días. Contáctanos por WhatsApp y te resolvemos el caso.",
+    "flyer": "DMV-MULT-PLAN.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-planes-pago-multas"
+  },
+  {
+    "id": "curso-manejo-defensivo",
+    "title": "Curso de Manejo Defensivo",
+    "description": "El Curso de Manejo Defensivo es la herramienta más efectiva para reducir hasta 4 puntos de tu licencia y obtener hasta 10% de descuento en tu seguro de auto por 3 años. Te inscribimos en un curso aprobado por el estado de Nueva York, en español, que puedes tomar en línea desde tu casa. Recibes el certificado oficial al completarlo. Tiempo estimado: 1 a 2 días. Escríbenos por WhatsApp y te coordinamos la inscripción hoy.",
+    "flyer": "DMV-LIC-DEF.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-curso-manejo-defensivo"
+  },
+  {
+    "id": "certificado-prelicense",
+    "title": "Certificado Pre-License (Curso 5 Horas)",
+    "description": "El curso Pre-License de 5 horas es un requisito obligatorio del estado de Nueva York para obtener tu licencia de conducir. Cubre seguridad vial, leyes de tránsito y manejo responsable. Te inscribimos en un curso aprobado por NYS DMV, disponible en español, y obtienes tu certificado MV-278 oficial al completarlo. Tiempo estimado: 1 a 2 días. Escríbenos por WhatsApp y arrancamos tu inscripción al instante.",
+    "flyer": "DMV-LIC-PRE.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-certificado-prelicense"
+  },
+  {
+    "id": "disputar-tickets",
+    "title": "Disputar Tickets de Tránsito (SIPOPA)",
+    "description": "Si recibiste un ticket de tránsito que consideras injusto, lo disputamos por ti a través del sistema SIPOPA. Analizamos tu caso en detalle, preparamos toda la documentación requerida, redactamos tu declaración profesional y presentamos la disputa ante la corte correspondiente. Hacemos seguimiento hasta el resultado. Tiempo estimado: 5 a 10 días. Contáctanos por WhatsApp con la foto de tu ticket y comenzamos hoy.",
+    "flyer": "DMV-TIC-DIS.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-disputar-tickets"
+  },
+  {
+    "id": "plan-pagos-dmv",
+    "title": "Plan de Pagos DMV/MVC",
+    "description": "Si tienes un balance pendiente acumulado ante el DMV o MVC que no puedes pagar de una sola vez, un plan de pagos puede ser tu solución. Gestionamos la solicitud completa, negociamos las mejores condiciones posibles según tu situación financiera y completamos toda la documentación del acuerdo. Evitas suspensiones y consigues alivio. Tiempo estimado: 3 a 5 días. Escríbenos por WhatsApp y comenzamos a resolverlo.",
+    "flyer": "DMV-PAGO-PLAN.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-plan-pagos-dmv"
+  },
+  {
+    "id": "citas-dmv",
+    "title": "Citas para Oficinas DMV/MVC",
+    "description": "Navegar el sistema de citas del DMV o MVC es frustrante, especialmente si las páginas están en inglés. Programamos tu cita en la oficina y fecha que prefieras: renovación de licencia, ID estatal, registro de vehículo o cualquier trámite. Recibes la confirmación por escrito junto con instrucciones claras de qué llevar el día de tu cita. Tiempo estimado: 1 a 3 días. Contáctanos por WhatsApp con tu trámite específico.",
+    "flyer": "DMV-CITA-OFI.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-citas-dmv"
+  },
+  {
+    "id": "citas-realid",
+    "title": "Citas para REAL ID",
+    "description": "El REAL ID es un documento de identificación que será requerido para abordar vuelos domésticos y acceder a edificios federales. Programamos tu cita en la oficina DMV de tu preferencia, verificamos tu elegibilidad y te entregamos la lista exacta de documentos que necesitas llevar. Te aseguramos que todo esté en orden antes de tu visita. Tiempo estimado: 1 a 3 días. Escríbenos por WhatsApp y te asistimos al instante.",
+    "flyer": "DMV-CITA-RID.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-citas-realid"
+  },
+  {
+    "id": "audiencias-trafico",
+    "title": "Programar y Re-programar Audiencias de Tráfico",
+    "description": "Si necesitas programar una audiencia de tráfico o reprogramar una existente porque no puedes asistir en la fecha asignada, lo gestionamos por ti ante la corte de tráfico correspondiente. Manejamos todo el proceso para conseguir una nueva fecha que se ajuste a tu disponibilidad y te confirmamos por escrito. Tiempo estimado: 3 a 7 días. Contáctanos por WhatsApp con la información de tu caso y lo procesamos ya.",
+    "flyer": "DMV-AUD-PROG.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-audiencias-trafico"
+  },
+  {
+    "id": "asistencia-culpable-inocente",
+    "title": "Asistencia para Declararse Culpable o Inocente",
+    "description": "Cuando recibes un ticket de tránsito tienes opciones: declararte culpable, inocente, o culpable con explicación. Te explicamos claramente las consecuencias de cada opción en términos de puntos, multas e impacto en tu seguro. Te ayudamos a completar correctamente los formularios de declaración para presentar tu caso de la mejor manera posible. Tiempo estimado: 1 a 2 días. Escríbenos por WhatsApp con los detalles del ticket.",
+    "flyer": "DMV-TIC-DECL.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-asistencia-culpable-inocente"
+  },
+  {
+    "id": "pago-tickets",
+    "title": "Pago de Tickets",
+    "description": "No dejes que tus tickets de tránsito se acumulen. Las multas impagas pueden generar suspensión de licencia, cargos adicionales e incluso órdenes de arresto. Gestionamos el pago de tus tickets de forma rápida y segura, verificamos que el pago se registre correctamente en el sistema y te entregamos la confirmación oficial. Tiempo estimado: 1 a 2 días. Contáctanos por WhatsApp con la información de tu ticket.",
+    "flyer": "DMV-TIC-PAG.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-pago-tickets"
+  },
+  {
+    "id": "renovacion-registro",
+    "title": "Renovación de Registración de Carro o Moto",
+    "description": "Mantén tu vehículo o motocicleta legalmente registrado sin complicaciones. Gestionamos la renovación de tu registración de manera completamente administrativa, verificamos que no haya problemas pendientes con tu vehículo y nos aseguramos de que recibas tu nueva registración a tiempo. Procesamos toda la documentación por ti. Tiempo estimado: 3 a 5 días. Escríbenos por WhatsApp con los datos de tu vehículo.",
+    "flyer": "DMV-VEH-RREG.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-renovacion-registro"
+  },
+  {
+    "id": "orientacion-tickets",
+    "title": "Orientación Profesional para Tickets de Tráfico",
+    "description": "Si no sabes qué hacer con un ticket de tránsito, ofrecemos orientación profesional personalizada. Analizamos tu situación específica, te explicamos todas las opciones disponibles (disputar, pagar, plan de pagos, declararte culpable o inocente) y te recomendamos el mejor camino a seguir según tu caso particular. Recibes un plan de acción claro paso a paso. Tiempo estimado: 1 día. Contáctanos por WhatsApp con foto de tu ticket.",
+    "flyer": "DMV-TIC-ORIE.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-orientacion-tickets"
+  },
+  {
+    "id": "citas-examen-practico",
+    "title": "Citas para Examen Práctico (Road Test)",
+    "description": "El examen práctico de manejo (Road Test) es el último paso para obtener tu licencia de conducir. Programamos tu cita en la ubicación y fecha que prefieras, te indicamos qué documentos necesitas llevar y qué esperar el día del examen. Vas preparado y con confianza. Tiempo estimado: 1 a 3 días. Escríbenos por WhatsApp con tus datos y te coordinamos la cita inmediatamente.",
+    "flyer": "DMV-LIC-ROAD.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-citas-examen-practico"
+  },
+  {
+    "id": "asistencia-examen",
+    "title": "Asistencia el Día del Examen de Manejo",
+    "description": "El día del examen de manejo puede ser estresante. Te acompañamos para que vayas preparado: te explicamos la ruta probable del examen, los puntos exactos que evalúan los inspectores, los errores comunes que debes evitar, y si lo necesitas coordinamos un vehículo apto para tu examen. Vas con confianza y pasas a la primera. Tiempo estimado: 1 día. Contáctanos por WhatsApp antes de tu cita.",
+    "flyer": "DMV-LIC-EXAM.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-asistencia-examen"
+  },
+  {
+    "id": "practicas-manejo",
+    "title": "Prácticas de Manejo",
+    "description": "Si necesitas practicar antes de tu examen de manejo, coordinamos sesiones de práctica con instructores profesionales bilingües en tu zona. Las sesiones son personalizadas según tu nivel de experiencia y se enfocan en las áreas que necesitas mejorar para pasar tu Road Test con éxito. Practicas en rutas reales de examen. Tiempo estimado: según disponibilidad. Escríbenos por WhatsApp y te coordinamos.",
+    "flyer": "DMV-LIC-PRAC.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-practicas-manejo"
+  },
+  {
+    "id": "carros-remolcados",
+    "title": "Recuperar Carros o Motos Remolcados",
+    "description": "Si tu carro o motocicleta fue remolcado, el tiempo es crítico porque cada día en el depósito acumula cargos. Te ayudamos a localizar tu vehículo en el sistema, gestionamos todo el papeleo necesario y coordinamos la recuperación lo antes posible para minimizar los costos del depósito. Tiempo estimado: 1 a 2 días. Contáctanos por WhatsApp con urgencia y comenzamos al instante.",
+    "flyer": "DMV-VEH-REM.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-carros-remolcados"
+  },
+  {
+    "id": "remover-suspensiones",
+    "title": "Ayuda para Remover Suspensiones",
+    "description": "Una suspensión de licencia o registro complica tu vida diaria. Te ayudamos a entender por qué fue suspendida (multas impagas, falta de seguro u otros motivos), creamos un plan de acción personalizado y gestionamos todo el proceso ante el DMV o MVC hasta restaurar tu documento. Hacemos seguimiento hasta la activación. Tiempo estimado: 5 a 15 días. Escríbenos por WhatsApp con tu aviso de suspensión.",
+    "flyer": "DMV-LIC-SUSP.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-remover-suspensiones"
+  },
+  {
+    "id": "pago-tickets-camaras",
+    "title": "Pago de Tickets por Cámaras y Estacionamiento",
+    "description": "Las multas por cámaras de velocidad, semáforo rojo y estacionamiento son cada vez más comunes. Si no se pagan a tiempo pueden generar cargos adicionales y problemas con la registración de tu vehículo. Buscamos todas tus multas pendientes, procesamos los pagos de forma rápida y eficiente, y te entregamos confirmaciones oficiales. Tiempo estimado: 1 a 2 días. Escríbenos por WhatsApp con los datos de tu vehículo.",
+    "flyer": "DMV-TIC-CAM.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-pago-tickets-camaras"
+  },
+  {
+    "id": "retirar-botas",
+    "title": "Asistencia para Retirar Botas",
+    "description": "Si tu vehículo tiene una bota inmovilizadora, debes actuar rápido para evitar que sea remolcado. Identificamos qué multas o deudas causaron la inmovilización, gestionamos los pagos requeridos y coordinamos la remoción de la bota lo antes posible. Tiempo estimado: 1 a 3 días. Contáctanos por WhatsApp con urgencia, indicando la ubicación del vehículo, y te asistimos inmediatamente.",
+    "flyer": "DMV-VEH-BOTA.webp",
+    "cat": "dmv",
+    "cat_label": "DMV & Tránsito",
+    "link": "https://roblesmultiservices.com/#detalle-retirar-botas"
+  },
+  {
+    "id": "solicitud-asilo",
+    "title": "Preparación de Solicitud de Asilo",
+    "description": "La solicitud de asilo es uno de los trámites más importantes y complejos del proceso migratorio. Preparamos tu solicitud completa incluyendo el Formulario I-589, declaración personal detallada y toda la documentación de soporte. Cada documento se organiza profesionalmente, listo para presentar ante la corte de inmigración. Tiempo estimado: 5 a 10 días. Contáctanos por WhatsApp y comenzamos hoy con tu caso. Servicio de preparación documental, no asesoría legal.",
+    "flyer": "INM-ASI-I589.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-solicitud-asilo"
+  },
+  {
+    "id": "reforzamiento-caso",
+    "title": "Reforzamiento de Caso de Asilo",
+    "description": "Si tu caso de asilo necesita más fuerza, identificamos y preparamos evidencia adicional para fortalecer tu solicitud. Esto puede incluir reportes de condiciones del país, artículos de noticias relevantes, declaraciones adicionales de testigos y documentación que apoye tu caso ante el juez. Organizamos todo profesionalmente y enviamos a la corte. Tiempo estimado: 5 a 10 días. Escríbenos por WhatsApp para revisar tu caso. No somos abogados.",
+    "flyer": "INM-ASI-REF.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-reforzamiento-caso"
+  },
+  {
+    "id": "reactivacion-reloj",
+    "title": "Reactivación del Reloj de Asilo",
+    "description": "El reloj de asilo determina cuándo puedes solicitar tu permiso de trabajo. Si tu reloj se detuvo por algún motivo, te ayudamos a gestionar la solicitud de reactivación ante USCIS. Preparamos toda la documentación necesaria y hacemos seguimiento al proceso hasta su resolución. Tiempo estimado: 5 a 15 días. Contáctanos por WhatsApp con tu caso y número A para comenzar. Servicio de preparación documental.",
+    "flyer": "INM-ASI-RELOJ.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-reactivacion-reloj"
+  },
+  {
+    "id": "permiso-trabajo",
+    "title": "Solicitud de Permiso de Trabajo (EAD)",
+    "description": "El permiso de trabajo (EAD) te permite trabajar legalmente en Estados Unidos. Preparamos tu solicitud completa incluyendo el Formulario I-765, fotografías según las especificaciones exactas de USCIS y toda la documentación de soporte requerida. Te entregamos el paquete revisado y listo para enviar. Tiempo estimado: 3 a 5 días. Escríbenos por WhatsApp y comenzamos tu solicitud hoy. No somos abogados, servicio de preparación documental.",
+    "flyer": "INM-EAD-I765.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-permiso-trabajo"
+  },
+  {
+    "id": "cambio-direccion",
+    "title": "Cambio de Dirección (Corte EOIR + DHS)",
+    "description": "Si te mudaste, es OBLIGATORIO actualizar tu dirección tanto ante la corte de inmigración (EOIR) como ante DHS o ICE. No hacerlo puede resultar en perder tu audiencia y que se emita una orden de deportación en tu ausencia. Hacemos ambos cambios por ti, con la confirmación correspondiente. Tiempo estimado: 1 a 3 días. Contáctanos por WhatsApp con urgencia, te resolvemos hoy mismo. Servicio administrativo.",
+    "flyer": "INM-DIR-EOIR.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-cambio-direccion"
+  },
+  {
+    "id": "cambio-audiencia-virtual",
+    "title": "Cambio de Audiencia Presencial a Virtual",
+    "description": "Si no puedes asistir presencialmente a tu audiencia de inmigración o prefieres un formato virtual, preparamos y presentamos la solicitud de cambio ante la corte. Especialmente útil si te mudaste a otro estado o tienes dificultades de transporte. Incluye justificación documentada y seguimiento. Tiempo estimado: 5 a 10 días. Escríbenos por WhatsApp con tu situación y procedemos.",
+    "flyer": "INM-AUD-VIRT.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-cambio-audiencia-virtual"
+  },
+  {
+    "id": "mocion-aplazamiento",
+    "title": "Moción para Aplazamiento de Audiencia",
+    "description": "Si necesitas más tiempo para preparar tu caso, conseguir un abogado o cualquier otra razón válida, preparamos y presentamos una moción de aplazamiento (continuance) ante la corte de inmigración. Incluimos toda la justificación legal necesaria para que el juez apruebe tu solicitud. Tiempo estimado: 5 a 10 días. Contáctanos por WhatsApp con tu situación y comenzamos. Servicio de preparación documental.",
+    "flyer": "INM-MOC-APL.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-mocion-aplazamiento"
+  },
+  {
+    "id": "mocion-jurisdiccion",
+    "title": "Moción para Cambio de Jurisdicción",
+    "description": "Si te mudaste a otro estado, tu caso de inmigración puede necesitar transferirse a la corte más cercana a tu nueva dirección. Preparamos la moción de cambio de jurisdicción (change of venue) con toda la documentación requerida y hacemos seguimiento hasta la transferencia. Tiempo estimado: 10 a 30 días. Escríbenos por WhatsApp con la información de tu nueva ubicación. No somos abogados.",
+    "flyer": "INM-MOC-JUR.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-mocion-jurisdiccion"
+  },
+  {
+    "id": "mocion-reapertura",
+    "title": "Moción para Reapertura de Caso",
+    "description": "Si tu caso fue cerrado o recibiste una orden de deportación en ausencia, una moción de reapertura puede ser tu oportunidad. Analizamos la viabilidad, preparamos la moción con toda la justificación legal necesaria, recopilamos nueva evidencia y documentación que demuestre las circunstancias excepcionales de tu situación. Tiempo estimado: 10 a 30 días. Contáctanos por WhatsApp con urgencia. Servicio documental.",
+    "flyer": "INM-MOC-REAP.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-mocion-reapertura"
+  },
+  {
+    "id": "pago-tarifa-asilo",
+    "title": "Pago de Tarifa Anual de Asilo",
+    "description": "Los solicitantes de asilo deben pagar una tarifa anual para mantener su caso activo ante USCIS. Te ayudamos a gestionar este pago de forma correcta y oportuna, asegurándonos de que tu caso permanezca en buen estado. Verificamos monto y fecha de vencimiento. Tiempo estimado: 1 a 3 días. Escríbenos por WhatsApp con tu información del caso y procesamos el pago hoy.",
+    "flyer": "INM-PAGO-ASI.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-pago-tarifa-asilo"
+  },
+  {
+    "id": "pago-tarifas-migratorias",
+    "title": "Pago de Tarifas Migratorias (USCIS y EOIR)",
+    "description": "Los trámites migratorios tienen distintas tarifas que deben pagarse correctamente para que tu solicitud sea procesada. Calculamos la tarifa exacta según tu trámite, preparamos los documentos de pago y aseguramos que todo se procese sin errores ante USCIS o EOIR. Recibes la confirmación oficial. Tiempo estimado: 1 a 3 días. Contáctanos por WhatsApp con tu trámite específico.",
+    "flyer": "INM-PAGO-USCIS.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-pago-tarifas-migratorias"
+  },
+  {
+    "id": "preparacion-paquetes",
+    "title": "Preparación de Paquetes Migratorios",
+    "description": "Un paquete migratorio bien organizado es fundamental para el éxito de tu caso. Armamos tu paquete completo con todos los formularios, evidencias, declaraciones y documentos de soporte. Lo organizamos profesionalmente con índice, separadores y en el orden correcto que requiere la corte o USCIS. Revisión final de calidad incluida. Tiempo estimado: 3 a 7 días. Escríbenos por WhatsApp y agendamos. No somos abogados.",
+    "flyer": "INM-PAQ-PREP.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-preparacion-paquetes"
+  },
+  {
+    "id": "diligenciamiento-formularios",
+    "title": "Diligenciamiento Profesional de Formularios",
+    "description": "Los formularios migratorios son complejos y un error puede causar demoras o rechazos costosos. Tenemos experiencia llenando I-589, I-765, I-130, I-485, EOIR-26, EOIR-33 y muchos más. Completamos cada campo con precisión y revisamos todo dos veces antes de entregártelo listo para firmar. Tiempo estimado: 2 a 5 días. Contáctanos por WhatsApp con tu información personal.",
+    "flyer": "INM-FORM-DIL.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-diligenciamiento-formularios"
+  },
+  {
+    "id": "organizacion-evidencias",
+    "title": "Organización y Envío de Evidencias a la Corte",
+    "description": "Presentar evidencia ante la corte de inmigración requiere un formato y procedimiento específico. Organizamos toda tu evidencia profesionalmente, preparamos la carta de presentación (cover letter), el índice de exhibiciones y enviamos todo a la corte y al abogado del gobierno con el certificado de servicio correspondiente. Tiempo estimado: 3 a 5 días. Escríbenos por WhatsApp con tu evidencia.",
+    "flyer": "INM-EVID-CORTE.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-organizacion-evidencias"
+  },
+  {
+    "id": "reparacion-paquetes",
+    "title": "Reparación de Paquetes Migratorios",
+    "description": "Si tu paquete migratorio fue rechazado, tiene errores o está incompleto, lo corregimos. Analizamos qué salió mal, identificamos los errores u omisiones, corregimos formularios, completamos documentos faltantes y preparamos una versión corregida lista para re-presentar ante la corte o USCIS. Tiempo estimado: 3 a 7 días. Contáctanos por WhatsApp con el paquete rechazado.",
+    "flyer": "INM-PAQ-REP.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-reparacion-paquetes"
+  },
+  {
+    "id": "traducciones-certificadas",
+    "title": "Traducciones Certificadas",
+    "description": "Las traducciones certificadas son requeridas para presentar documentos en otro idioma ante cortes, USCIS y otras entidades oficiales. Ofrecemos traducciones certificadas español-inglés y viceversa, con certificado de exactitud incluido. Aceptadas por todas las instituciones gubernamentales. Tiempo estimado: 1 a 3 días. Escríbenos por WhatsApp con el documento que necesitas traducir y comenzamos hoy.",
+    "flyer": "INM-TRAD-CERT.webp",
+    "cat": "imm",
+    "cat_label": "Inmigración",
+    "link": "https://roblesmultiservices.com/#detalle-traducciones-certificadas"
+  },
+  {
+    "id": "declaraciones-juradas",
+    "title": "Declaraciones Juradas (Affidavits)",
+    "description": "Una declaración jurada (affidavit) es un documento legal donde una persona declara bajo juramento que cierta información es verdadera. Redactamos declaraciones juradas profesionales para cualquier propósito: inmigración, corte, trámites personales, negocios y más. Cada declaración es personalizada según tu necesidad específica, con formato legal correcto. Tiempo estimado: 1 a 3 días. Contáctanos por WhatsApp y la redactamos hoy.",
+    "flyer": "DOC-AFI.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-declaraciones-juradas"
+  },
+  {
+    "id": "cartas-general",
+    "title": "Cartas en General",
+    "description": "Redactamos todo tipo de cartas profesionales: cartas de empleo, referencias, apoyo para inmigración, cartas al gobierno, formales empresariales, de queja y mucho más. Cada carta se redacta con tono profesional, formato correcto y contenido efectivo según tu propósito. Disponible en español o inglés con revisión incluida. Tiempo estimado: 1 a 2 días. Escríbenos por WhatsApp con el tipo de carta que necesitas.",
+    "flyer": "DOC-CARTA-GEN.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-cartas-general"
+  },
+  {
+    "id": "cartas-residencia",
+    "title": "Cartas de Residencia",
+    "description": "Las cartas de residencia certifican que una persona vive en una dirección específica. Son frecuentemente requeridas para trámites de inmigración, inscripción escolar, servicios gubernamentales y otros. Preparamos cartas de residencia profesionales con formato oficial y toda la información requerida, listas para notarizar si es necesario. Tiempo estimado: 1 día. Contáctanos por WhatsApp con la información de residencia.",
+    "flyer": "DOC-CARTA-RES.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-cartas-residencia"
+  },
+  {
+    "id": "poderes",
+    "title": "Poderes (Power of Attorney)",
+    "description": "Un poder (Power of Attorney) te permite autorizar a otra persona a actuar en tu nombre para trámites específicos. Preparamos poderes generales y especiales para diferentes situaciones: trámites bancarios, inmobiliarios, legales, vehiculares y más. Cada poder incluye toda la información legal requerida en formato apropiado. Tiempo estimado: 1 a 3 días. Escríbenos por WhatsApp con el propósito específico del poder.",
+    "flyer": "DOC-POD.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-poderes"
+  },
+  {
+    "id": "apostillas",
+    "title": "Apostillas de Documentos en EE.UU.",
+    "description": "La apostilla es una certificación que valida un documento estadounidense para uso en otro país miembro del Convenio de La Haya. Gestionamos la apostilla completa de actas de nacimiento, matrimonio, divorcio, poderes, certificados escolares y cualquier documento que necesites usar en el extranjero. Tiempo estimado: 5 a 15 días. Contáctanos por WhatsApp con el documento y comenzamos el proceso ya.",
+    "flyer": "DOC-APO.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-apostillas"
+  },
+  {
+    "id": "curriculum",
+    "title": "Currículums Profesionales",
+    "description": "Tu currículum es tu primera entrevista frente a los empleadores. Creamos currículums modernos y efectivos en español e inglés, destacando tus habilidades, experiencia y logros. Diseño limpio, palabras clave optimizadas para los sistemas de reclutamiento (ATS) y formato PDF listo para enviar. Tiempo estimado: 2 a 3 días. Escríbenos por WhatsApp con tu información laboral y educativa, lo armamos hoy.",
+    "flyer": "DOC-CV.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-curriculum"
+  },
+  {
+    "id": "aplicar-empleos",
+    "title": "Aplicar para Empleos",
+    "description": "Buscamos ofertas de empleo que se ajusten a tu perfil y experiencia, y te ayudamos a aplicar con materiales profesionales. Incluye búsqueda de ofertas relevantes, preparación de currículum y carta de presentación personalizados para cada aplicación, y envío de las solicitudes. Servicio continuo según volumen acordado. Contáctanos por WhatsApp con el tipo de trabajo que buscas y arrancamos.",
+    "flyer": "DOC-EMP.webp",
+    "cat": "doc",
+    "cat_label": "Documentos & Notaría",
+    "link": "https://roblesmultiservices.com/#detalle-aplicar-empleos"
+  }
+]

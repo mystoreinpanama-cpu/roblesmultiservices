@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#001A3E"/>
+    <stop offset="50%" stop-color="#002B6B"/>
+    <stop offset="100%" stop-color="#0A08D6"/>
+  </linearGradient>
+  <radialGradient id="glow1" cx="20%" cy="80%" r="50%">
+    <stop offset="0%" stop-color="#FFC233" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#FFC233" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="80%" cy="20%" r="40%">
+    <stop offset="0%" stop-color="#25D366" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#25D366" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#glow1)"/>
+<rect width="1200" height="630" fill="url(#glow2)"/>
+
+<g transform="translate(80,150)">
+  <text x="0" y="0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="900" font-size="100" fill="#FFFFFF" letter-spacing="3">ROBLES</text>
+  <rect x="0" y="18" width="430" height="6" fill="#FFC233" rx="2"/>
+  <text x="0" y="62" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="600" font-size="24" fill="#FFC233" letter-spacing="9">MULTISERVICES</text>
+</g>
+
+<g transform="translate(80,330)">
+  <text x="0" y="0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="46" fill="#FFFFFF">Centro Profesional</text>
+  <text x="0" y="60" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="46" fill="#FFC233">de Soluciones</text>
+</g>
+
+<g transform="translate(80,460)" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="600" font-size="20">
+  <g>
+    <rect x="0" y="0" width="200" height="44" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,194,51,0.5)" stroke-width="1.5"/>
+    <text x="100" y="29" fill="#FFFFFF" text-anchor="middle">DMV &amp; Tránsito</text>
+  </g>
+  <g transform="translate(218,0)">
+    <rect x="0" y="0" width="180" height="44" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,194,51,0.5)" stroke-width="1.5"/>
+    <text x="90" y="29" fill="#FFFFFF" text-anchor="middle">Inmigración</text>
+  </g>
+  <g transform="translate(416,0)">
+    <rect x="0" y="0" width="195" height="44" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,194,51,0.5)" stroke-width="1.5"/>
+    <text x="97" y="29" fill="#FFFFFF" text-anchor="middle">Documentos</text>
+  </g>
+</g>
+
+<g transform="translate(870,80)">
+  <rect x="0" y="0" width="270" height="84" rx="42" fill="#25D366"/>
+  <circle cx="46" cy="42" r="22" fill="#FFFFFF"/>
+  <path d="M 39 35 Q 39 30 44 30 L 50 30 Q 55 30 55 35 L 55 50 L 50 47 L 44 47 Q 39 47 39 42 Z" fill="#25D366"/>
+  <text x="80" y="36" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">WhatsApp</text>
+  <text x="80" y="60" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">+1 (929) 395-7904</text>
+</g>
+
+<g transform="translate(870,320)" font-family="Plus Jakarta Sans, Inter, sans-serif">
+  <rect x="0" y="0" width="270" height="170" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,194,51,0.3)" stroke-width="1.5"/>
+  <g transform="translate(20,20)">
+    <text x="0" y="46" font-weight="900" font-size="56" fill="#FFC233">42+</text>
+    <text x="0" y="74" font-weight="600" font-size="14" fill="#FFFFFF" letter-spacing="2">SERVICIOS</text>
+  </g>
+  <line x1="135" y1="20" x2="135" y2="150" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <g transform="translate(155,20)">
+    <text x="0" y="46" font-weight="900" font-size="56" fill="#FFC233">500+</text>
+    <text x="0" y="74" font-weight="600" font-size="14" fill="#FFFFFF" letter-spacing="2">FAMILIAS</text>
+  </g>
+  <g transform="translate(20,110)">
+    <text x="0" y="0" font-weight="800" font-size="22" fill="#FFFFFF" letter-spacing="2">★★★★★ 5.0</text>
+    <text x="0" y="22" font-weight="500" font-size="13" fill="rgba(255,255,255,0.8)">Calificación de clientes</text>
+  </g>
+</g>
+
+<rect x="0" y="595" width="1200" height="35" fill="#FFC233"/>
+<text x="600" y="619" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18" fill="#003882" text-anchor="middle">roblesmultiservices.com · 100% remoto · Atención en español</text>
+
+</svg>

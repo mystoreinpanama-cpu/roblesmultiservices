@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#003882"/>
+  <text x="32" y="36" font-family="'Plus Jakarta Sans',Inter,sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">R</text>
+  <rect x="14" y="40" width="36" height="3" fill="#FFC233" rx="1.5"/>
+  <text x="32" y="54" font-family="'Plus Jakarta Sans',Inter,sans-serif" font-weight="700" font-size="7" fill="#FFC233" text-anchor="middle" letter-spacing="1.5">MULTI</text>
+</svg>
