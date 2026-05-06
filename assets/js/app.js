@@ -218,11 +218,11 @@
     // Update category section visibility
     document.querySelectorAll('[data-cat-section]').forEach(sec => {
       const cat = sec.dataset.catSection;
-      if(activeFilter === 'all'){
-        sec.style.display = '';
-      } else {
-        sec.style.display = cat === activeFilter ? '' : 'none';
-      }
+      // Count visible cards inside this category
+      const visibleInCat = sec.querySelectorAll('[data-service-card]:not([style*="display: none"])').length;
+      const matchesFilter = (activeFilter === 'all' || cat === activeFilter);
+      // Hide if filter excludes it OR if search yielded 0 cards in this category
+      sec.style.display = (matchesFilter && visibleInCat > 0) ? '' : 'none';
     });
   };
 
