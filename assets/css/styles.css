@@ -223,9 +223,9 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
 .cat-banner{position:relative;border-radius:var(--radius-xl);padding:60px 40px;color:#fff;overflow:hidden;margin-bottom:50px;box-shadow:var(--shadow-lg)}
 .cat-banner::before{content:"";position:absolute;inset:0;z-index:0}
 .cat-banner > *{position:relative;z-index:1}
-.cat-banner.dmv::before{background:linear-gradient(135deg,rgba(0,56,130,.92),rgba(10,8,214,.88)),url('../../robles_dmv_transito_1200x600.webp') center/cover}
-.cat-banner.imm::before{background:linear-gradient(135deg,rgba(10,8,214,.92),rgba(0,56,130,.88)),url('../../robles_inmigracion_1200x600.webp') center/cover}
-.cat-banner.doc::before{background:linear-gradient(135deg,rgba(48,56,87,.92),rgba(0,56,130,.88)),url('../../robles_documentos_notaria_1200x600.webp') center/cover}
+.cat-banner.dmv::before{background:linear-gradient(135deg,rgba(0,56,130,.92),rgba(10,8,214,.88))}
+.cat-banner.imm::before{background:linear-gradient(135deg,rgba(10,8,214,.92),rgba(0,56,130,.88))}
+.cat-banner.doc::before{background:linear-gradient(135deg,rgba(48,56,87,.92),rgba(0,56,130,.88))}
 .cat-banner-content{display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center}
 .cat-banner-icon{width:80px;height:80px;background:rgba(255,194,51,.2);border:1px solid rgba(255,194,51,.4);border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--gold)}
 .cat-banner h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:6px;color:#fff}
@@ -282,7 +282,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
 .about-features{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;margin-bottom:24px}
 .about-feature{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--text)}
 .about-feature svg{color:var(--wa);flex-shrink:0;margin-top:2px}
-.about-img-wrap{position:relative;border-radius:var(--radius-xl);overflow:hidden;min-height:400px;background:linear-gradient(135deg,rgba(0,56,130,.7),rgba(10,8,214,.65)),url('../../robles_nosotros_equipo_1200x600.webp') center/cover}
+.about-img-wrap{position:relative;border-radius:var(--radius-xl);overflow:hidden;min-height:400px;background:linear-gradient(135deg,rgba(0,56,130,.7),rgba(10,8,214,.65))}
 .about-img-wrap::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.6) 100%)}
 .about-badge{position:absolute;top:24px;right:24px;background:var(--gold);color:var(--blue);padding:8px 18px;border-radius:50px;font-weight:800;font-size:13px;letter-spacing:1px;z-index:2;box-shadow:var(--shadow)}
 .about-overlay{position:absolute;left:24px;right:24px;bottom:24px;color:#fff;z-index:2}
@@ -469,3 +469,26 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
   body{color:#000;background:#fff}
   .section{padding:20px 0}
 }
+
+
+/* Catalogue refresh, 2026-11-04 */
+:root{--blue:#081e4d;--blue-light:#102c68;--gold:#e3b442}
+.hero::after{background:radial-gradient(800px circle at 20% 80%,rgba(227,180,66,.1),transparent 60%)}
+.hero-catalog-image{display:block;max-width:500px;border-radius:20px;overflow:hidden;box-shadow:0 18px 48px #0003;border:1px solid #e3b44266}
+.hero-catalog-image img{width:100%;height:auto;display:block}.hero-note{color:#e3e8f3;font-size:14px}
+.hero-ctas{margin-bottom:20px}.service-card{opacity:1;transform:none}.service-card-img{display:block}
+.service-card-img img{object-fit:contain}.service-card:hover .service-card-img img{transform:none}
+.service-card .btn-wa-mini{width:auto;min-width:94px;font-size:13px;padding:10px}.service-card p{-webkit-line-clamp:4;line-clamp:4}
+.catalog-heading{padding:24px 0}.catalog-heading h2{color:var(--heading);font-size:28px;margin-bottom:10px}
+.catalog-heading p{max-width:760px;color:var(--text-soft)}.cat-section{padding:10px 0 60px}
+.filter-count{margin-top:18px;text-align:center;color:var(--text-soft)}[hidden]{display:none!important}
+.search-wrap input{padding-left:18px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.about-copy{max-width:850px}.about-copy p{margin:18px 0;line-height:1.8}.about-copy .btn{margin-top:12px}
+.channel-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.channel-links a{padding:10px 12px;background:var(--blue-soft);border:1px solid var(--border);border-radius:8px;color:var(--heading);font-weight:600;font-size:14px}
+.detail-card .btn{margin:16px 0 8px}.detail-card h2{font-size:21px;margin-bottom:12px}.detail-card p{line-height:1.65;color:var(--text-soft);font-size:15px}
+.detail-top-actions{margin-top:24px}.contact-number{font-weight:700;text-align:center}.small-note{font-size:12px!important;margin-top:14px}.request-steps{padding-left:20px}.request-steps li{margin:10px 0;font-size:14px;color:var(--text-soft)}
+.faq-item summary{cursor:pointer;padding:20px 24px;font-weight:600;color:var(--heading)}.faq-answer{padding:0 24px 22px;color:var(--text-soft)}
+.footer-contact a{overflow-wrap:anywhere}.related h2{margin-bottom:24px}.float-wa{font-size:16px;font-weight:800;animation:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.toast{max-width:calc(100vw - 32px);border-radius:12px}
+@media(max-width:1024px){.hero-catalog-image{max-width:440px;margin:auto}.hero-grid{gap:32px}}
+@media(max-width:600px){.hero{padding:40px 0}.hero h1{font-size:2.1rem}.hero-eyebrow{font-size:11px;padding:8px 12px}.detail-main{padding:16px}.hero-ctas .btn{width:100%;justify-content:center}.channel-links{gap:8px}.detail-top-actions .btn{white-space:normal}.services-grid{grid-template-columns:1fr}.contact-card{padding:20px}.filter-chips{flex-wrap:wrap;overflow:visible}.chip{font-size:12px}.cat-section{padding-bottom:28px}}
