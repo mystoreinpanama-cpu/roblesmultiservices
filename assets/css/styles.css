@@ -499,3 +499,8 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
 .btn-wa{box-shadow:0 4px 16px rgba(8,127,67,.25)}
 .btn-wa:hover{box-shadow:0 8px 28px rgba(5,104,54,.35)}
 .float-wa{box-shadow:0 8px 30px rgba(8,127,67,.35)}
+
+/* Dark contact and theme-control contrast, catalogue3. */
+[data-theme="dark"] .contact-card-content > a{color:#FFD466}
+[data-theme="dark"] .contact-card-content > a:hover,[data-theme="dark"] .contact-card-content > a:focus-visible{color:#FFFFFF}
+[data-theme="dark"] .theme-toggle:hover,[data-theme="dark"] .theme-toggle:focus-visible{background:#1A2547;color:#FFD466}
