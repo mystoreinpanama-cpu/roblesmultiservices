@@ -22,8 +22,8 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
   --gold:#FFC233;
   --gold-soft:#FFF4D1;
   --red:#F70526;
-  --wa:#25D366;
-  --wa-dark:#1FAD54;
+  --wa:#087F43;
+  --wa-dark:#056836;
 
   /* Surface */
   --bg:#FFFFFF;
@@ -492,3 +492,10 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
 :focus-visible{outline:3px solid var(--gold);outline-offset:4px}.toast{max-width:calc(100vw - 32px);border-radius:12px}
 @media(max-width:1024px){.hero-catalog-image{max-width:440px;margin:auto}.hero-grid{gap:32px}}
 @media(max-width:600px){.hero{padding:40px 0}.hero h1{font-size:2.1rem}.hero-eyebrow{font-size:11px;padding:8px 12px}.detail-main{padding:16px}.hero-ctas .btn{width:100%;justify-content:center}.channel-links{gap:8px}.detail-top-actions .btn{white-space:normal}.services-grid{grid-template-columns:1fr}.contact-card{padding:20px}.filter-chips{flex-wrap:wrap;overflow:visible}.chip{font-size:12px}.cat-section{padding-bottom:28px}}
+
+/* Contrast corrections verified 2026-11-04. */
+[data-theme="dark"] .brand-main{color:#FFFFFF}
+[data-theme="dark"] .section-eyebrow,[data-theme="dark"] .nav-list a:hover,[data-theme="dark"] .nav-list a.active{color:#FFD466}
+.btn-wa{box-shadow:0 4px 16px rgba(8,127,67,.25)}
+.btn-wa:hover{box-shadow:0 8px 28px rgba(5,104,54,.35)}
+.float-wa{box-shadow:0 8px 30px rgba(8,127,67,.35)}
