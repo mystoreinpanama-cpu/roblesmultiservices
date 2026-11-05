@@ -504,3 +504,13 @@ h1,h2,h3,h4,h5,h6{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;lin
 [data-theme="dark"] .contact-card-content > a{color:#FFD466}
 [data-theme="dark"] .contact-card-content > a:hover,[data-theme="dark"] .contact-card-content > a:focus-visible{color:#FFFFFF}
 [data-theme="dark"] .theme-toggle:hover,[data-theme="dark"] .theme-toggle:focus-visible{background:#1A2547;color:#FFD466}
+
+/* Aurora and Olivia: keep the complete photograph visible at every width. */
+.hero-team-layout{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:40px}
+.hero-team-image{width:100%;margin:0;border:1px solid #e3b44266;border-radius:20px;overflow:hidden;box-shadow:0 18px 48px #0003}
+.hero-team-image img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:1024px){
+  .hero-team-layout{grid-template-columns:minmax(0,1fr);gap:32px}
+  .hero-team-image{max-width:680px;justify-self:center}
+}
+@media(max-width:600px){.hero-team-layout{gap:24px}}
